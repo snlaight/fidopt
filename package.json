@@ -1,0 +1,50 @@
+{
+  "name": "fidopt",
+  "version": "1.0.0",
+  "description": "Fidopt application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snlaight/fidopt.git"
+  },
+  "author": "Santiago Laight",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snlaight/fidopt/issues"
+  },
+  "homepage": "https://github.com/snlaight/fidopt#readme",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.8",
+    "next": "^11.1.2",
+    "next-connect": "^0.10.2",
+    "next-session": "^4.0.2",
+    "nodemon": "^2.0.13",
+    "path": "^0.12.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "strapi": "^3.6.8",
+    "stream": "^0.0.2",
+    "tailwindcss": "^2.2.16"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1"
+  }
+}
