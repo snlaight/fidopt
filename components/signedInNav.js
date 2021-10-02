@@ -17,7 +17,7 @@ const SignedInNav = ()=>{
         setStyle(newArr);
     }
     const setSelectedText = (txt)=>{
-        setTxt(txt);
+        setText(txt);
         setDropdown(true);
     }
     return (
