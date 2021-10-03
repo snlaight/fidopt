@@ -1,8 +1,11 @@
 import Head from 'next/head';
 import React from 'react'
+import ComingSoon from '../components/comingSoon'
 const { useState, useEffect } = React;
 
 const Home = ()=>{
+
+  
   let [info, setInfo]= useState({
       perros:[],
     loading: true
@@ -27,8 +30,8 @@ const Home = ()=>{
     <Head>
 
         </Head>
-        <h1>Test test
-        </h1>
+        
+        <ComingSoon />
 </div>
     )
 }
